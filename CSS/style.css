@@ -1,0 +1,387 @@
+:root {
+    --color: maroon;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.navbar .container {
+    background-color: transparent;
+    /* background-color: maroon; */
+}
+
+.navbar {
+    z-index: 8;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.slide {
+    overflow: hidden;
+}
+
+.slide .carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+.search {
+    background-color: rgba(0, 0, 0, 0.545);
+    z-index: 1;
+}
+
+.search input {
+    box-shadow: none !important;
+    outline: none;
+    min-width: 230px;
+}
+
+.search .btn {
+    background-color: var(--color);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.search .btn:hover {
+    transform: translateY(-5%);
+}
+
+.propular-properties {
+    margin-top: 90vh;
+    position: relative;
+}
+
+.top-margin {
+    margin-top: 100.3vh;
+}
+
+@media (min-width: 577px) {
+    .propular-properties {
+        margin-top: 100vh;
+    }
+
+    .top-margin {
+        margin-top: 113.5vh;
+    }
+}
+
+.propular-properties .card {
+    border: none;
+}
+
+.propular-properties .card .image img {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .propular-properties .card .image img {
+        height: 20vh;
+        object-fit: cover;
+    }
+}
+
+.price {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-weight: bold;
+    color: var(--color);
+    font-size: 1.1rem;
+}
+
+.propular-properties .text-muted,
+.propular-properties .fw-bold{
+    font-size: .9rem;
+}
+
+.propular-properties .icon {
+    font-size: .8rem;
+}
+
+.propular-properties span {
+    padding: 0 7% 0 2%;
+}
+
+.propular-properties .carousel-item button {
+    font-size: .9rem;
+}
+
+.propular-properties .btn {
+    background-color: var(--color);
+    transition: all 1s;
+}
+
+.learn {
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    color: var(--color);
+}
+
+.learn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 40%;
+    background-color: var(--color);
+    transform-origin: center;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+    margin: 0 30%;
+}
+
+.learn:hover::before {
+    transform: scaleX(0);
+}
+
+.list {
+    transform: translateY(0);
+    transition: all .5s;
+}
+
+.list:hover {
+    transform: translateY(5%);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.355);
+}
+
+.find-home .bi {
+    background-color: var(--color);
+    color: white;
+    transition: all 1s;
+    outline: 2px solid transparent;
+}
+
+.find-home .list:hover .bi{
+    outline: 2px solid var(--color);
+}
+
+.head {
+    color: var(--color);
+}
+
+.growing {
+    background-color: #f2f4f6;
+}
+
+.growing .btn {
+    background-color: var(--color);
+    transition: all .5s;
+    position: relative;
+}
+
+.growing .btn:hover {
+    transform: translateY(-5%);
+    box-shadow: 0 5px 10px var(--color);
+}
+
+.bi-instagram, 
+.bi-facebook,
+.bi-messenger,
+.bi-whatsapp,
+.bi-meta,
+.bi-twitter,
+.bi-twitter-x {
+    transition: all .5s;
+}
+
+.bi-instagram:hover {
+    background: #FD1D1D;
+    color: white;
+}
+
+.bi-facebook:hover {
+    background-color: #1877F2;
+    color: white;
+}
+
+.bi-messenger:hover {
+    background-color: #00C6FF;
+    color: white;
+}
+
+.bi-whatsapp:hover {
+    background-color: #128c7e;
+    color: white;
+}
+
+.bi-meta:hover {
+    background-color: #0081FB;
+    color: white;
+}
+
+.bi-twitter:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.bi-twitter-x:hover {
+    background-color: #000;
+    color: white;
+}
+
+.aos1, .aos2, .aos3, .aos4 {
+    opacity: 0;
+}
+
+.aos1 {
+    animation: aos .5s linear .5s forwards;
+}
+
+.aos2 {
+    animation: aos .5s linear 1s forwards;
+}
+
+.aos3 {
+    animation: aos .5s linear 1.5s forwards;
+}
+
+.aos4 {
+    animation: aos .5s linear 2s forwards;
+}
+
+@keyframes aos {
+    from { transform: scale(0); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.bi-house-heart-fill, .bi-person-heart {
+    position: absolute;
+    top: 0%;
+    color: var(--color);
+    transition: all 1s;
+    z-index: -1;
+    font-size: 2rem;
+}
+
+.propular-properties .btn:hover {
+    box-shadow: 0 5px 10px var(--color);
+    transform: translateY(-5%);
+}
+
+.propular-properties .btn:hover .bi-house-heart-fill{
+    top: -69%;
+}
+
+.growing .btn:hover .bi-person-heart {
+    top: -65%;
+}
+
+.ani1, .ani2, .ani3, .ani4 {
+    opacity: 0;
+    max-height: 100px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+    margin: 3%;
+    max-width: 100%;
+    font-size: .7rem;
+}
+
+@media (min-width:768px) {
+    .ani1, .ani2, .ani3, .ani4 {
+        font-size: .9rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ani1, .ani2, .ani3, .ani4 {
+        max-height: 120px;
+    }
+}
+
+.ani1:hover, .ani2:hover, .ani3:hover, .ani4:hover {
+    max-height: 380px;
+    background: linear-gradient(to top, var(--color) 10%, white 90%);
+    color: white;
+}
+
+.ani1:hover .card-title,
+.ani2:hover .card-title,
+.ani3:hover .card-title,
+.ani4:hover .card-title {
+    color: black;
+}
+
+.ani1:hover .learn,
+.ani2:hover .learn,
+.ani3:hover .learn,
+.ani4:hover .learn {
+    color: white;
+    cursor: pointer;
+}
+
+.ani1:hover .learn::before,
+.ani2:hover .learn::before,
+.ani3:hover .learn::before,
+.ani4:hover .learn::before {
+    background-color: white;
+}
+
+
+.video-item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.video-item.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.326);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-item.fullscreen video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.video-item.fullscreen::after {
+    content: "✖";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.numbers p {
+    font-size: .6rem;
+    line-height: .5;
+}
+
+@media (min-width: 576px) {
+    .numbers p {
+        font-size: 1rem;
+        line-height: 1;
+    }
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+@media (min-width: 350px) and (max-width: 991px) {
+    .navbar-collapse {
+        background-color: var(--color);
+        margin-top: 5%;
+        padding-top: 5%;
+    }
+}
+
+.footer {
+    background-color: #f2f4f6;
+}

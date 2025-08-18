@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Property</title>
+    <link rel="stylesheet" href="../Libs/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Libs/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Slide Image -->
+    <div class="slide z-n1 position-absolute top-0 start-0 w-100 h-100">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Images/carousel1.jpg" class="d-block w-100 img-fluid" alt="Slide1" data-bs-interval="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Images/carousel2.jpg" class="d-block w-100 img-fluid" alt="Slide2" data-bs-interval="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Images/carousel3.jpg" class="d-block w-100 img-fluid" alt="Slide3" data-bs-interval="500">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <i class="bi bi-chevron-up"></i> -->
+
+    <nav class="navbar navbar-expand-lg" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+        <div class="container p-3 px-5 rounded-3">
+            <a class="navbar-brand fs-3 text-light fw-semibold" href="#home">Property</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse rounded-4" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 px-5 fw-semibold">
+                <li class="nav-item">
+                    <a class="nav-link text-light text-opacity-50 active" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <li><a class="nav-link text-light text-opacity-50" href="/buy-property.html">Buy Property</a></li>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link text-light text-opacity-50" href="#">Services</a>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a href="#" class="nav-link text-light text-opacity-50">About</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link text-light text-opacity-50"  href="/contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Home Page -->
+    <div class="search position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h1 class="text-light mb-3 fw-semibold" data-aos="fade-left" data-aos-delay="800" data-aos-duration="1000">Easiest way to find your dream home</h1>
+            <form class="d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
+                <input type="text" class="form-control me-2 w-25 p-2 px-3 rounded-pill" placeholder="Your City">
+                <button class="btn rounded-pill text-light p-2 px-4"><i class="bi bi-house-heart-fill"></i>Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Popular Properties -->
+    <div class="propular-properties" id="home">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+                <h3>Popular Properties</h3>
+                <button class="btn text-light rounded-pill py-3 px-4"><i class="bi bi-house-heart-fill"></i><a href="/contact-us.html" class="text-decoration-none text-light">View all properties</a></button>
+            </div>
+            <!-- Small Screen -->
+            <div id="carouselSmall" class="carousel slide mt-5 d-block d-md-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card rounded-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel16.jpg" alt="" class="rounded-top-3 img-fluid">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card rounded-3" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel15.jpg" alt=""  class="rounded-top-3 img-fluid">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel14.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel13.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel12.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel11.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel10.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="../Images/carousel9.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel8.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel7.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel6.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel5.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel4.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="../Images/carousel3.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel2.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel1.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Medium Screen -->
+            <div id="carouselMedium" class="carousel slide mt-5 d-none d-md-block d-lg-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card rounded-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel16.jpg" alt="" class="rounded-top-3 img-fluid">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel15.jpg" alt=""  class="rounded-top-3 img-fluid">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3" data-aos="fade-left" data-aos-delay="900" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel14.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel13.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel12.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel11.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel10.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="../Images/carousel9.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel8.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel7.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel6.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel5.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel4.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="../Images/carousel3.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel2.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Large Screen -->
+            <div id="carouselLarge" class="carousel slide mt-5 d-none d-lg-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="6000">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card rounded-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel16.jpg" alt="" class="rounded-top-3 img-fluid">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel15.jpg" alt=""  class="rounded-top-3 img-fluid">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel14.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="1000">
+                                    <div class="image">
+                                        <img src="../Images/carousel13.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel12.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel11.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel10.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="../Images/carousel9.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel8.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel7.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel6.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel5.jpg" alt=""  class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel4.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="../Images/carousel3.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel2.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card rounded-3">
+                                    <div class="image">
+                                        <img src="../Images/carousel1.jpg" alt="" class="rounded-top-3">
+                                    </div>
+                                    <div class="card-body lh-sm">
+                                        <p class="price">&#8377; 12,00,000</p>
+                                        <p class="text-muted">Park Town, Madurai</p>
+                                        <p class="fw-bold">TamilNadu, India</p>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-bed text-muted"></i><span class="fw-semibold">2 beds</span>
+                                            <i class="fa-solid fa-bath text-muted"></i><span class="fw-semibold">2 baths</span>
+                                        </div>
+                                        <button class="btn text-light p-2 px-4 rounded-pill m-2 mt-4">See Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- videos -->
+    <div class="video py-5">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-6 video-item" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                    <video autoplay loop muted playsinline class="w-100 rounded shadow">
+                        <source src="../videos/Real Estate Developer Video.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-6 video-item" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                    <video autoplay loop muted playsinline class="w-100 rounded shadow">
+                        <source src="../videos/Real Estate Open House Video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Properties -->
+    <div class="our-properties">
+        <div class="container text-center d-md-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="card d-flex align-items-center pt-3 ani1">
+                        <img src="../Images/home.png" alt="" class="img-fluid w-25">
+                        <div class="card-title fw-bold">Our Properties</div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem optio nihil quos rerum voluptatibus autem!</p>
+                            <p class="learn">Learn More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card d-flex align-items-center pt-3 ani2">
+                        <img src="../Images/insurance.png" alt=""  class="img-fluid w-25">
+                        <div class="card-title fw-bold">Property for Sale</div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem optio nihil quos rerum voluptatibus autem!</p>
+                            <p class="learn">Learn More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card d-flex align-items-center pt-3 ani3">
+                        <img src="../Images/agreement.png" alt=""  class="img-fluid w-25">
+                        <div class="card-title fw-bold">Real Estate Agent</div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem optio nihil quos rerum voluptatibus autem!</p>
+                            <p class="learn">Learn More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card d-flex align-items-center pt-3 ani4">
+                        <img src="../Images/sale.png" alt=""  class="img-fluid w-25">
+                        <div class="card-title fw-bold">House for Sale</div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem optio nihil quos rerum voluptatibus autem!</p>
+                            <p class="learn">Learn More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Find Home -->
+    <div class="find-home mt-5 pt-5">
+        <div class="container">
+            <div class="text-center w-75 w-lg-50 mx-auto lh-lg" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
+                <h3>Let's find home that's perfect for you</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, sequi officia corrupti voluptatum cum corporis.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-5" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                    <div class="d-flex align-items-center lh-sm mb-5 list p-3 rounded-4">
+                        <p><i class="bi bi-house-door-fill p-4 me-4 rounded-circle fs-5"></i></p>
+                        <div>
+                            <p class="head fw-bold">2M Properties</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, provident!</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center lh-sm mb-5 list p-3 rounded-4">
+                        <p><i class="bi bi-person-fill p-4 me-4 rounded-circle fs-5"></i></p>
+                        <div>
+                            <p class="head fw-bold">Top Rated Agents</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, laborum?</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center lh-sm mb-5 list p-3 rounded-4">
+                        <p><i class="bi bi-shield-shaded p-4 me-4 rounded-circle fs-5"></i></p>
+                        <div>
+                            <p class="head fw-bold">Legit Properties</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, modi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                    <video autoplay loop muted playsinline class="w-100 rounded shadow">
+                        <source src="../videos/3410663-uhd_2562_1440_30fps.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="row mb-5 mt-5 numbers" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="col-3 lh-sm">
+                    <p class="fw-bold fs-3 ms-2 one" data-target="3,298">3,298</p>
+                    <p class="text-secondary"># of Buy Properties</p>
+                </div>
+                <div class="col-3 lh-sm">
+                    <p class="fw-bold fs-3 ms-2">2,181</p>
+                    <p class="text-secondary"># of Sell Properties</p>
+                </div>
+                <div class="col-3 lh-sm">
+                    <p class="fw-bold fs-3 ms-2">9,316</p>
+                    <p class="text-secondary"># of All Properties</p>
+                </div>
+                <div class="col-3 lh-sm">
+                    <p class="fw-bold fs-3 ms-2">7,191</p>
+                    <p class="text-secondary"># of Agents</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Growing -->
+    <div class="growing mt-5 pt-5 pb-5">
+        <div class="container text-center" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
+            <h2>Be a part of our growing real state agents</h2>
+            <button class="btn mt-4 text-light px-4 py-3 rounded-pill" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"><i class="bi bi-person-heart"></i>Apply for Real Estate Agent</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-5">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                    <h6 class="fw-bold">CONTACT</h6>
+                    <p class="text-secondary">Park Town, Madurai, TamilNadu, India</p>
+                    <p><a href="#" class="text-secondary">+91 8987983453</a></p>
+                    <p><a href="#" class="text-secondary">+91 9554532363</a></p>
+                    <p><a href="mailto:info@gmail.com" class="text-secondary">info@gmail.com</a></p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                    <h6 class="fw-bold">SOURCES</h6>
+                    <p><a href="#home" class="text-secondary">Home</a></p>
+                    <p><a href="/buy-property.html" class="text-secondary">Property</a></p>
+                    <p><a href="/contact-us.html" class="text-secondary">Contact Us</a></p>
+                </div>
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                    <h6 class="fw-bold">LINKS</h6>
+                    <p><a href="#" class="text-secondary">About Us</a></p>
+                    <p><a href="#" class="text-secondary">Contact Us</a></p>
+                    <p>
+                        <i class="bi bi-instagram p-2 rounded-3"></i>&nbsp;&nbsp;
+                        <i class="bi bi-facebook p-2 rounded-3"></i>&nbsp;&nbsp;
+                        <i class="bi bi-messenger p-2 rounded-3"></i>&nbsp;&nbsp;
+                        <i class="bi bi-whatsapp p-2 rounded-3"></i>&nbsp;&nbsp;
+                        <i class="bi bi-meta p-2 rounded-3"></i>&nbsp;&nbsp;
+                        <i class="bi bi-twitter p-2 rounded-3"></i>&nbsp;&nbsp;
+                        <i class="bi bi-twitter-x p-2 rounded-3"></i>
+                    </p>
+                </div>
+            </div>
+            <p class="text-secondary text-center pt-5">Copyright © 2025 . All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="../Libs/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../Libs/aos-master/dist/aos.js"></script>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
