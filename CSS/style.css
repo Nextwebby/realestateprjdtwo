@@ -50,22 +50,8 @@ html, body {
 }
 
 .propular-properties {
-    margin-top: 90vh;
+    margin-top: 110vh;
     position: relative;
-}
-
-.top-margin {
-    margin-top: 100.3vh;
-}
-
-@media (min-width: 577px) {
-    .propular-properties {
-        margin-top: 100vh;
-    }
-
-    .top-margin {
-        margin-top: 113.5vh;
-    }
 }
 
 .propular-properties .card {
@@ -113,6 +99,36 @@ html, body {
 .propular-properties .btn {
     background-color: var(--color);
     transition: all 1s;
+}
+
+.icon img {
+    width: 2%;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    transition: all .5s;
+}
+
+.propular-properties .btn:hover .icon img {
+    top: -40%;
+    width: 13%;
+}
+
+.growing .btn {
+    position: relative;
+}
+
+.bi-person-heart {
+    position: absolute;
+    top: -0;
+    color: var(--color);
+    font-size: 2rem;
+    z-index: -1;
+    transition: all .5s;
+}
+
+.growing .btn:hover .bi-person-heart {
+    top: -65%;
 }
 
 .learn {
@@ -250,23 +266,26 @@ html, body {
     to { transform: scale(1); opacity: 1; }
 }
 
-.bi-house-heart-fill, .bi-person-heart {
+/* .icon img {
     position: absolute;
     top: 0%;
     color: var(--color);
     transition: all 1s;
     z-index: -1;
+} */
+
+/* .icon i {
     font-size: 2rem;
-}
+} */
 
 .propular-properties .btn:hover {
     box-shadow: 0 5px 10px var(--color);
     transform: translateY(-5%);
 }
 
-.propular-properties .btn:hover .bi-house-heart-fill{
+/* .propular-properties .btn:hover .icon{
     top: -69%;
-}
+} */
 
 .growing .btn:hover .bi-person-heart {
     top: -65%;

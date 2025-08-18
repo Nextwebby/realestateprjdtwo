@@ -177,17 +177,6 @@ img[alt="property-bg2"] {
     margin-top: 100vh;
 }
 
-.top-margin {
-    margin-top: 100vh;
-}
-
-@media (min-width: 577px) {
-
-    .top-margin {
-        margin-top: 100vh;
-    }
-}
-
 .btn-filter {
     background-color: maroon;
     color: white;

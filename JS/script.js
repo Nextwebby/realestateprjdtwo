@@ -27,17 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const navbar = document.querySelector('.navbar');
             navbar.style.transition = "background-color 0.5s ease";
 
-            if (window.scrollY > 300) {
+            if (window.scrollY > 200) {
                 navbar.style.position = 'fixed';
                 navbar.style.top = '0';
                 navbar.style.left = '0';
                 navbar.style.backgroundColor = "maroon";
                 navbar.style.width = '100%'
-                document.querySelector(`${className}`).classList.add('top-margin')
             } else {
                 navbar.style.width = '100%'
                 navbar.style.backgroundColor = "transparent";
-                document.querySelector(`${className}`).classList.remove('top-margin')
             }
         });
     }

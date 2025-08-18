@@ -23,16 +23,6 @@
     margin-top: 90vh;
 }
 
-.top-margin {
-    margin-top: 100.3vh;
-}
-
-@media (min-width: 577px) {
-    .top-margin {
-        margin-top: 110vh;
-    }
-}
-
 input, textarea {
     outline: 1px solid var(--color);
 }
